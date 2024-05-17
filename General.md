@@ -38,6 +38,9 @@
 
 #### What are the strategies to address Mode Collapse during training?
 
+### What is overfitting? How does it get manifested in Gen AI models. What techniques can be used to  address it during training?
+
+### What is gradient clipping? and how does it help in stabilizing the training process of generative models?
 
 
 ## Ethical Considerations
