@@ -234,7 +234,7 @@ The Transformer architecture, introduced by Vaswani et al. in "Attention is All 
 - **Function**: Allows the model to weigh the importance of different words in a sequence relative to each other.
 - **Calculation**: Uses queries, keys, and values to compute attention scores.
 
-![alt text](images\image-6.png)
+![alt text](images/image-6.png)
 
 
 #### 2. Multi-Head Attention
@@ -306,7 +306,7 @@ Large Language Models (LLMs) are trained through a process that involves large-s
   - **Masked Language Modeling (MLM)**: Models like BERT predict masked words in a sequence.
 
 
-![alt text](.\images\image-7.png)
+![alt text](images/image-7.png)
 
 
 #### 3. Fine-Tuning
@@ -344,7 +344,7 @@ Given the prompt "The quick brown fox", the model generates:
 4. "The quick brown fox jumps over the lazy"
 5. "The quick brown fox jumps over the lazy dog."
 
-![alt text](.\images\image-8.png)
+![alt text](images/image-8.png)
 
 ### Underlying Architecture: Transformer
 
@@ -360,14 +360,14 @@ The Transformer architecture, introduced by Vaswani et al., is the backbone of m
 
 **Formula for Positional Encoding**:
 
-![alt text](.\images\image-9.png)
+![alt text](images/image-9.png)
 
 #### 3. Multi-Head Self-Attention
 
 - **Self-Attention Mechanism**: Computes attention scores to determine the importance of each token in relation to others.
 
 
-![alt text](.\images\image-1.png)
+![alt text](images/image-1.png)
 
 - **Multi-Head Attention**: Uses multiple attention heads to capture different aspects of the relationships between tokens.
 
@@ -375,7 +375,7 @@ The Transformer architecture, introduced by Vaswani et al., is the backbone of m
 
 - Applies two linear transformations with a ReLU activation in between.
 
-![alt text](.\images\image-2.png)
+![alt text](images/image-2.png)
 
 
 #### 5. Layer Normalization and Residual Connections
@@ -534,7 +534,7 @@ The decoder generates the output sequence, also consisting of multiple identical
 1. **Inputs**: Queries \(Q\), Keys \(K\), and Values \(V\), all derived from the input embeddings.
 2. **Attention Scores**: Calculated as:
 
-![alt text](.\images\image-5.png)
+![alt text](images/image-5.png)
 
 3. **Softmax Function**: Ensures that the attention scores are probabilities that sum to 1.
 
@@ -615,7 +615,7 @@ Generative Adversarial Networks (GANs) are a type of artificial intelligence mod
 
 ### Objective Functions
 
-![alt text](.\images\image-10.png)
+![alt text](images/image-10.png)
 - **Discriminator Loss**: 
   \[
   L_D = -\mathbb{E}_{\mathbf{x} \sim p_{data}(\mathbf{x})} [\log D(\mathbf{x})] - \mathbb{E}_{\mathbf{z} \sim p_{z}(\mathbf{z})} [\log (1 - D(G(\mathbf{z})))]
@@ -1884,7 +1884,7 @@ Autoregressive models predict the next value in a sequence based on the precedin
 
 1. **Conditional Probability**: Autoregressive models decompose the joint probability of a sequence into a product of conditional probabilities. For a sequence \( x = (x_1, x_2, ... x_n) \), the joint probability is given by:
 
-![alt text](.\images\image-3.png)
+![alt text](images/image-3.png)
 
    
 2. **Sequential Generation**: The model generates a sequence step-by-step, starting from an initial element and producing subsequent elements by sampling from the conditional distributions.
